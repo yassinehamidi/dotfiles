@@ -1,0 +1,59 @@
+configuration {
+    font: "JetBrainsMono Nerd Font 12";
+    show-icons: true;
+    icon-theme: "Papirus";
+}
+
+* {
+    background: #ffffff;
+    foreground: #000000;
+}
+
+window {
+    width: 30%;
+    border: 2;
+    border-color: #000000;
+    border-radius: 0;
+    padding: 10;
+}
+
+mainbox {
+    padding: 12;
+    children: [ "inputbar", "listview" ];
+}
+
+inputbar {
+    spacing: 8;
+    padding: 8;
+    background-color: #ffffff;
+    text-color: #000000;
+}
+
+prompt {
+    text-color: #000000;
+}
+
+listview {
+    lines: 6;
+    columns: 1;
+    spacing: 6;
+    fixed-height: false;
+    background-color: #ffffff;
+}
+
+element {
+    padding: 8;
+    background-color: #ffffff;
+    text-color: #000000;
+}
+
+element selected {
+    background-color: #000000;
+    text-color: #ffffff;
+}
+
+//@theme "/usr/share/rofi/themes/android_notification.rasi"
+
+//@theme "/usr/share/rofi/themes/purple.rasi"
+
+@theme "/home/klaus/.local/share/rofi/themes/rounded-template.rasi"
